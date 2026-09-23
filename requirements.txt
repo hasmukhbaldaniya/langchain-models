@@ -26,5 +26,9 @@ python-dotenv
 numpy
 scikit-learn
 
+# Pydantic (email validation for EmailStr)
+pydantic
+email-validator
+
 # Web App UI
 streamlit
