@@ -32,3 +32,6 @@ email-validator
 
 # Web App UI
 streamlit
+
+# LangChain chain graph visualization (Runnable.get_graph().print_ascii())
+grandalf
