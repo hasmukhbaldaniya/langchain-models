@@ -48,3 +48,5 @@ branch_chain = RunnableBranch(
 chain = RunnablePassthrough.assign(sentiment=classify_chain) | branch_chain
 
 print(chain.invoke({"feedback": "I dont like this product!"}))
+
+chain.get_graph().print_ascii()
